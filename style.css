@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    background-color: black;
+    height: 8vh;
+}
+.logo{
+    width: 100px;
+    margin-top: 10px;
+    margin-left:20px ;
+    cursor: pointer;
+}
+.dti{
+    color: gray;
+    margin-left: 145px;
+    margin-top: -40px;
+    cursor: pointer;
+    width: 80px;
+}
+span{
+    color: white;
+}
+input{
+    display: flex;
+    margin-left: 250px;
+    width: 650px;
+    margin-top: -38px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search{
+    float: right;
+    width: 25px;
+    margin-top: -35px;
+    margin-right: 429px;
+    background-color: rgb(255, 196, 0);
+    padding: 5px 10px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.language{
+    color: white;
+    float: right;
+    margin-right: 360px;
+    margin-top: -22px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 50px;
+    align-items: center;
+    text-align: center;
+}
+.signin{
+    color: white;
+    float: right;
+    text-decoration: none;
+    margin-right: -220px;
+    margin-top: -32px;
+    font-size: 12px;
+    width: 150px;
+}
+.ac{
+    font-size: 16px;
+}
+.order-1{
+    float: right;
+    color: white;
+    margin-top: -35px;
+    margin-right: -300px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 80px;
+
+}
+.order{
+    font-size: 16px;
+}
+.cart-1{
+    float: right;
+    margin-top: -25px;
+    font-size: 20px;
+    margin-right: -380px;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cart{
+    width: 44px;
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+/* ----------second-bar------------- */
+.bar{
+    background-color:rgb(44, 43, 83);
+    height: 6vh;
+}
+nav{
+   margin-left: 20px; 
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 8px;
+    margin-top: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration:none ;
+    font-size: 14px;
+}
+
+/* --------------------main ------------------- */
+
+.main{
+    background-image: url(images/background.jpg) ;
+    background-size: cover;
+    cursor: pointer;
+}
+.products div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.img-2{
+    width: 350px;
+    margin-top: 20px ;
+    margin-right: 20px;
+}
+.last{
+    height: 33vh;
+}
+.img-1{
+    width: 350px;
+    margin-top: 20px ;
+    margin-right: 20px;
+}
+
+.signup{
+    background-color: white;
+    height: 35vh;
+    margin-top: 50px;
+}    
+.border{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.prsnl{
+    margin-top: 50px;
+    font-size: 18px;
+}
+.signin-1{
+    width: 280px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: rgb(255, 185, 80);
+    border: none;
+    border-radius: 5px;
+    
+}
+.customer{
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(60, 60, 175);
+}
+.back{
+    background-color: rgb(75, 73, 133);
+    text-align: center;
+    height: 8vh;
+    margin-top: -15px;
+
+}
+.back p{
+    padding-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+.footer{
+    background-color:rgb(44, 43, 83);
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+}
+.f-1 a{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 150px;
+    color: rgb(209, 209, 209);
+
+}
+.f-2 a{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 150px;
+    color: rgb(209, 209, 209);
+
+}
+.f-3 a{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 150px;
+    color: rgb(209, 209, 209);
+}
+ .f-4 a{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color:rgb(209, 209, 209)
+}
+
+.f-1, .f-2, .f-3, .f-4 p{
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.last-line{
+    margin-top: -80px;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+
+.last-logo{
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.btn-ln{
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 8px 25px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    
+}
+.ln{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.c-u{
+    padding-top:20px ;
+}
+.p-n{
+    margin-left: 20px;
+}
+.p-c{
+    margin-left: 20px;
+}
+.c{
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
